@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <div className="h-fit w-[100%] gap-[2rem] rounded-[.8rem]">
-        <h1 className="font-[400] text-[4rem] lg:text-[5rem] text-center">
+        <h1 className="font-[400] text-[2.5rem] lg:text-[5rem] text-center">
           Prime Drinks
         </h1>
         {product.length === 0 ? (
