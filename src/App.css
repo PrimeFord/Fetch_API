@@ -1,0 +1,3 @@
+.App {
+  @apply h-fit w-[100%] lg:p-[2rem] bg-[#eeeeee] flex justify-center items-center;
+}

@@ -1,0 +1,15 @@
+.load {
+  animation: load 2s linear infinite -2s;
+  @apply border-[3px] w-[1.5rem] h-[1.5rem] rounded-[50%] border-t-blue-400;
+}
+.Wrapper {
+  @apply w-full h-screen grid place-items-center;
+}
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
